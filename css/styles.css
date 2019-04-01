@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,700,900");
+
+body {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  font-weight: 400;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+p {
+  color: #8f8f8f;
+}
+/* headings */
+.big-heading {
+  font-family: "Montserrat-Black", sans-serif;
+  font-weight: 900;
+  font-size: 3.3rem;
+  line-height: 1.5;
+}
+/* containers */
+.container-fluid {
+  padding: 3% 15%;
+  max-width: 1400px;
+}
+/* sections */
+.colored-section {
+  background: #ff4c68;
+  color: #fff;
+}
+.white-section {
+  background: #fff;
+}
+/* navigation */
+.navbar-brand {
+  font-family: Ubuntu, sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.nav-item {
+  margin: 0 15px;
+}
+.nav-link {
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+.navbar {
+  padding: 0 0 5rem;
+}
+/* title section */
+#title {
+  overflow: hidden;
+  text-align: left;
+  padding-bottom: 4%;
+}
+.title-img {
+  max-width: 66%;
+  transform: rotate(30deg);
+  margin: 0 5%;
+  position: absolute;
+  z-index: 1;
+  right: 30%;
+  top: 0;
+}
+.hero {
+  position: relative;
+  z-index: 2;
+}
+/* download button */
+.download-btn {
+  margin: 5% 3% 5% 0;
+}
+
+/* Features */
+#features {
+  padding: 4rem 0;
+  background: #fff;
+  position: relative;
+  z-index: 2;
+}
+.feature-title {
+  font-size: 1.5rem;
+}
+.icon {
+  color: #ef8172;
+  margin-bottom: 10px;
+}
+.icon:hover {
+  color: #ff4c88;
+}
+
+/* testimonials */
+#testimonials {
+  background: #ef8172;
+  padding: 5%;
+}
+.testimonial-text {
+  font-size: 2.7rem;
+}
+.testimonial-img {
+  width: 10%;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+#testimonials-carousel {
+  padding: 4% 15%;
+}
+/* press section */
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+.press-logo {
+  width: 15%;
+  margin: 20px 10px 50px;
+}
+/* pricing */
+#pricing {
+  padding: 4% 0;
+}
+#pricing .row div {
+  margin-bottom: 20px;
+}
+.card {
+  margin: 5% 0;
+  height: 100%;
+  position: relative;
+  padding-bottom: 20%;
+}
+.signup-btn {
+  display: block;
+  position: absolute;
+  margin: auto;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 70%;
+}
+/* call to action */
+#cta {
+  padding: 5% 15%;
+}
+.cta-text {
+  font-size: 3rem;
+  font-family: "Montserrat-Black", sans-serif;
+  font-weight: 900;
+}
+/* footer */
+#footer {
+  padding: 6% 15% 3%;
+}
+#footer i {
+  margin: 1%;
+}
+/* responsive */
+@media screen and (max-width: 990px) {
+  #title {
+    text-align: center;
+  }
+  .title-img {
+    position: static;
+    transform: rotate(0);
+  }
+}
